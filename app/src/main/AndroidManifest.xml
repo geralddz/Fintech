@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Fintech">
         <activity
+            android:name=".ActivityTambahan"
+            android:exported="false" />
+        <activity
             android:name=".UI.Activity.SettingActivity"
             android:exported="false" />
         <activity
