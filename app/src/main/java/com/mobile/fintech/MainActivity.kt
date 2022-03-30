@@ -1,14 +1,16 @@
-package com.mobile.fintech.UI.Activity
+package com.mobile.fintech
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
 import androidx.fragment.app.Fragment
-import com.mobile.fintech.R
-import com.mobile.fintech.UI.Fragment.HomeFragment
-import com.mobile.fintech.UI.Fragment.ProfileFragment
-import com.mobile.fintech.UI.Fragment.SettingFragment
+import com.mobile.fintech.home.HomeActivity
+import com.mobile.fintech.home.HomeFragment
+import com.mobile.fintech.profile.ProfileActivity
+import com.mobile.fintech.profile.ProfileFragment
+import com.mobile.fintech.setting.SettingActivity
+import com.mobile.fintech.setting.SettingFragment
 
 class MainActivity : AppCompatActivity() {
     private lateinit var btHome:Button

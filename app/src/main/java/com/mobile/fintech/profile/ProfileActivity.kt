@@ -1,12 +1,12 @@
-package com.mobile.fintech.UI.Activity
+package com.mobile.fintech.profile
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.mobile.fintech.R
 
-class HomeActivity : AppCompatActivity() {
+class ProfileActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_home)
+        setContentView(R.layout.activity_profile)
     }
 }

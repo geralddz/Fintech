@@ -13,16 +13,16 @@
             android:name=".ActivityTambahan"
             android:exported="false" />
         <activity
-            android:name=".UI.Activity.SettingActivity"
+            android:name=".setting.SettingActivity"
             android:exported="false" />
         <activity
-            android:name=".UI.Activity.ProfileActivity"
+            android:name=".profile.ProfileActivity"
             android:exported="false" />
         <activity
-            android:name=".UI.Activity.HomeActivity"
+            android:name=".home.HomeActivity"
             android:exported="false" />
         <activity
-            android:name=".UI.Activity.MainActivity"
+            android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
