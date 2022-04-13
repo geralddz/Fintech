@@ -54,17 +54,9 @@ class ProfileFragment : Fragment(), ProfileView {
     }
 
     override fun showUserById(id: Int) {
-        TODO("Not yet implemented")
+
     }
 
-    companion object {
-        @JvmStatic
-        fun newInstance(param1: String, param2: String) =
-            ProfileFragment().apply {
-                arguments = Bundle().apply {
-
-                }
-            }
-    }
+    companion object
 
 }
