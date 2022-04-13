@@ -6,8 +6,8 @@
 
     <ImageView
         android:id="@+id/img_flower"
-        android:layout_width="60dp"
-        android:layout_height="60dp"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
         android:layout_margin="10dp"
         android:src="@mipmap/ic_launcher_round"
         android:contentDescription="Gambar Bunga"/>
