@@ -29,7 +29,7 @@ class HomeFragment : Fragment() {
     private val listOfFlower = listOf(
         Flower(flowerName = "Tulips", flowerImageUrl = "https://www.thespruce.com/thmb/y0RVZcelnyhPwZlY-vsbK5kf8Aw=/960x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/tulips-planting-and-growing-tulips-1402137-06-5c18a69c82114b16bc8eb3baf69935e3.jpg"),
         Flower(flowerName = "Raflesia Arnoldi", flowerImageUrl = "https://t-2.tstatic.net/tribunnewswiki/foto/bank/images/rafflesia-arnoldii.jpg"),
-        Flower(flowerName = "Mawar", flowerImageUrl = "https://asset.kompas.com/crops/Xp29TEyfu6wLfZ6bq8c2IwBAWeA=/200x75:800x675/340x340/ data/photo/2021/05/25/60ac6b0a8be74.jpg"),
+        Flower(flowerName = "Mawar", flowerImageUrl = "https://asset.kompas.com/crops/Xp29TEyfu6wLfZ6bq8c2IwBAWeA=/200x75:800x675/340x340/data/photo/2021/05/25/60ac6b0a8be74.jpg"),
         Flower(flowerName = "Anggrek", flowerImageUrl = "https://asset.kompas.com/crops/YeJJiCcc4WyuB3q1MSdna5CjPMs=/127x86:1816x1211/750x500/data/photo/2021/01/21/60094953238c1.jpg"),
         Flower(flowerName = "Melati", flowerImageUrl = "https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/Crape_Jasmine.jpg/1200px-Crape_Jasmine.jpg")
     )

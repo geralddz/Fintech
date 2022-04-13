@@ -1,5 +1,6 @@
 package com.mobile.fintech.ui.home
 
+import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -9,6 +10,7 @@ import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
 import com.mobile.fintech.R
 import com.mobile.fintech.data.local.database.model.Flower
+import kotlin.math.log
 
 class FlowerAdapter: RecyclerView.Adapter<FlowerAdapter.ViewHolder>() {
     private val flowers = mutableListOf<Flower>()
@@ -47,8 +49,10 @@ class FlowerAdapter: RecyclerView.Adapter<FlowerAdapter.ViewHolder>() {
         holder.apply {
             tvFlowerName.text = flower.flowerName
 
+            Log.d("test", "onBindViewHolder: " + flower.flowerImageUrl)
             Glide.with(holder.itemView)
                 .load(flower.flowerImageUrl)
+                .centerCrop()
                 .into(imgFlower)
 
             _itemClick?.let { itemClick->

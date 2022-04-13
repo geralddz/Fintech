@@ -46,6 +46,7 @@ class ProfileFragment : Fragment(), ProfileView {
         tvEmail.text = user.email
         Glide.with(requireContext())
             .load(user.imageUrl)
+            .centerCrop()
             .into(ivImage)
     }
     override fun failedLoadUserProfile(message: String) {
