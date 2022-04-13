@@ -1,16 +1,17 @@
-package com.mobile.fintech
+package com.mobile.fintech.ui
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
 import androidx.fragment.app.Fragment
-import com.mobile.fintech.home.HomeActivity
-import com.mobile.fintech.home.HomeFragment
-import com.mobile.fintech.profile.ProfileActivity
-import com.mobile.fintech.profile.ProfileFragment
-import com.mobile.fintech.setting.SettingActivity
-import com.mobile.fintech.setting.SettingFragment
+import com.mobile.fintech.R
+import com.mobile.fintech.ui.home.HomeActivity
+import com.mobile.fintech.ui.home.HomeFragment
+import com.mobile.fintech.ui.profile.ProfileActivity
+import com.mobile.fintech.ui.profile.ProfileFragment
+import com.mobile.fintech.ui.setting.SettingActivity
+import com.mobile.fintech.ui.setting.SettingFragment
 
 class MainActivity : AppCompatActivity() {
     private lateinit var btHome:Button
@@ -25,6 +26,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
+        title = "Main Menu"
         btHome = findViewById(R.id.btHome)
         btProfile = findViewById(R.id.btProfile)
         btSetting = findViewById(R.id.btSetting)
