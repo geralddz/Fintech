@@ -10,7 +10,7 @@ class ProfilePresenter(private val view:ProfileView) {
                 User(
                     email = "dz_gerald@gmail.com",
                     id = userId,
-                    imageUrl = "https://d.newsweek.com/en/full/1061787/donald-trump-approval-rating.jpg",
+                    imageUrl = "https://amikom.ac.id/public/docs/2016/logo_amikom_full_color.png",
                     name = "Gerald Dzulfiqar"
                 )
             )

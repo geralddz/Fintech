@@ -6,6 +6,6 @@ interface ProfileView {
 
     fun showUserProfile (user: User)
     fun failedLoadUserProfile (message: String)
-    fun showUserById (id: Int)
+//    fun showUserById (id: Int)
 
 }

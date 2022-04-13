@@ -53,9 +53,6 @@ class ProfileFragment : Fragment(), ProfileView {
         Toast.makeText(context, message, Toast.LENGTH_LONG).show()
     }
 
-    override fun showUserById(id: Int) {
-
-    }
 
     companion object
 
