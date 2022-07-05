@@ -20,8 +20,7 @@
         android:layout_margin="10dp"
         android:text="Nama"
         android:textStyle="bold"
-        android:textSize="20sp"
-        android:textColor="@color/black"/>
+        android:textSize="20sp" />
 
     <TextView
         android:id="@+id/tv_email"
@@ -31,8 +30,7 @@
         android:layout_margin="10dp"
         android:text="Email"
         android:textStyle="bold"
-        android:textSize="20sp"
-        android:textColor="@color/black"/>
+        android:textSize="20sp" />
 
 
 

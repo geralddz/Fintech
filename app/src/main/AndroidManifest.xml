@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.mobile.fintech">
+
     <uses-permission android:name="android.permission.INTERNET" />
+
     <application
         android:name=".FinanceApp"
         android:allowBackup="true"
@@ -10,6 +12,15 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Fintech">
+        <activity
+            android:name=".mvp.MainActivityMVP"
+            android:exported="false" />
+        <activity
+            android:name=".utsmobilepro3"
+            android:exported="false" />
+        <activity
+            android:name=".ui.MainActivity"
+            android:exported="false" />
         <activity
             android:name=".ui.setting.SettingActivity"
             android:exported="false" />
@@ -20,7 +31,7 @@
             android:name=".ui.home.HomeActivity"
             android:exported="false" />
         <activity
-            android:name=".ui.MainActivity"
+            android:name=".kalkulatormvvm.MainActivityMVVM"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

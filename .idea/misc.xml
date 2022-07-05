@@ -5,6 +5,9 @@
       <map>
         <entry key="..\:/FILE MI/Semester 4/Mobile Pro 3/MP3/app/src/main/res/drawable/bgedittext.xml" value="1.0" />
         <entry key="..\:/FILE MI/Semester 4/Mobile Pro 3/MP3/app/src/main/res/drawable/bgkotak.xml" value="0.133" />
+        <entry key="..\:/FILE MI/Semester 4/Mobile Pro 3/MP3/app/src/main/res/drawable/gambarprofile.xml" value="0.1785" />
+        <entry key="..\:/FILE MI/Semester 4/Mobile Pro 3/MP3/app/src/main/res/drawable/ic_baseline_account_balance_24.xml" value="0.1785" />
+        <entry key="..\:/FILE MI/Semester 4/Mobile Pro 3/MP3/app/src/main/res/drawable/ic_baseline_account_box_24.xml" value="0.1785" />
         <entry key="..\:/FILE MI/Semester 4/Mobile Pro 3/MP3/app/src/main/res/drawable/ic_baseline_account_circle_24.xml" value="0.1425" />
         <entry key="..\:/FILE MI/Semester 4/Mobile Pro 3/MP3/app/src/main/res/drawable/ic_baseline_account_circle_black.xml" value="0.1425" />
         <entry key="..\:/FILE MI/Semester 4/Mobile Pro 3/MP3/app/src/main/res/drawable/ic_baseline_attribution_24.xml" value="0.1425" />
@@ -13,15 +16,19 @@
         <entry key="..\:/FILE MI/Semester 4/Mobile Pro 3/MP3/app/src/main/res/layout/activity_home.xml" value="0.221025641025641" />
         <entry key="..\:/FILE MI/Semester 4/Mobile Pro 3/MP3/app/src/main/res/layout/activity_main.xml" value="0.24259259259259258" />
         <entry key="..\:/FILE MI/Semester 4/Mobile Pro 3/MP3/app/src/main/res/layout/activity_main2.xml" value="0.22447916666666667" />
+        <entry key="..\:/FILE MI/Semester 4/Mobile Pro 3/MP3/app/src/main/res/layout/activity_main_mvp.xml" value="0.16666666666666666" />
+        <entry key="..\:/FILE MI/Semester 4/Mobile Pro 3/MP3/app/src/main/res/layout/activity_main_mvvm.xml" value="0.19444444444444445" />
         <entry key="..\:/FILE MI/Semester 4/Mobile Pro 3/MP3/app/src/main/res/layout/activity_profile.xml" value="0.221025641025641" />
         <entry key="..\:/FILE MI/Semester 4/Mobile Pro 3/MP3/app/src/main/res/layout/activity_setting.xml" value="0.25" />
         <entry key="..\:/FILE MI/Semester 4/Mobile Pro 3/MP3/app/src/main/res/layout/activity_tambahan.xml" value="0.22447916666666667" />
+        <entry key="..\:/FILE MI/Semester 4/Mobile Pro 3/MP3/app/src/main/res/layout/activity_utsmobilepro3.xml" value="0.2" />
         <entry key="..\:/FILE MI/Semester 4/Mobile Pro 3/MP3/app/src/main/res/layout/fragment_add_flower.xml" value="0.22447916666666667" />
         <entry key="..\:/FILE MI/Semester 4/Mobile Pro 3/MP3/app/src/main/res/layout/fragment_edit_flower.xml" value="0.22447916666666667" />
-        <entry key="..\:/FILE MI/Semester 4/Mobile Pro 3/MP3/app/src/main/res/layout/fragment_home.xml" value="0.2" />
-        <entry key="..\:/FILE MI/Semester 4/Mobile Pro 3/MP3/app/src/main/res/layout/fragment_profile.xml" value="0.221025641025641" />
+        <entry key="..\:/FILE MI/Semester 4/Mobile Pro 3/MP3/app/src/main/res/layout/fragment_home.xml" value="0.1" />
+        <entry key="..\:/FILE MI/Semester 4/Mobile Pro 3/MP3/app/src/main/res/layout/fragment_profile.xml" value="0.1" />
         <entry key="..\:/FILE MI/Semester 4/Mobile Pro 3/MP3/app/src/main/res/layout/fragment_setting.xml" value="0.221025641025641" />
-        <entry key="..\:/FILE MI/Semester 4/Mobile Pro 3/MP3/app/src/main/res/layout/item_flower.xml" value="0.22447916666666667" />
+        <entry key="..\:/FILE MI/Semester 4/Mobile Pro 3/MP3/app/src/main/res/layout/fragment_utsfragment.xml" value="0.2" />
+        <entry key="..\:/FILE MI/Semester 4/Mobile Pro 3/MP3/app/src/main/res/layout/item_flower.xml" value="0.1" />
       </map>
     </option>
   </component>

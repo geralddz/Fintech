@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -13,15 +12,14 @@
         android:gravity="center"
         android:text="Button Activity"
         android:textSize="30sp"
-        android:textStyle="bold"
-        android:textColor="@color/black"/>
+        android:textStyle="bold" />
 
     <Button
         android:id="@+id/btHome"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/tv"
-        android:layout_marginStart="40dp"
+        android:layout_marginStart="35dp"
         android:layout_marginTop="10dp"
         android:layout_marginEnd="10dp"
         android:text="HOME"
@@ -61,15 +59,14 @@
         android:gravity="center"
         android:text="Button Fragment"
         android:textSize="30sp"
-        android:textStyle="bold"
-        android:textColor="@color/black"/>
+        android:textStyle="bold" />
 
     <Button
         android:id="@+id/btFHome"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/tv1"
-        android:layout_marginStart="25dp"
+        android:layout_marginStart="23dp"
         android:layout_marginTop="10dp"
         android:layout_marginEnd="10dp"
         android:text="FRAGMENT\nHOME"
@@ -81,7 +78,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/tv1"
-        android:layout_marginStart="10dp"
+        android:layout_marginStart="7dp"
         android:layout_marginTop="10dp"
         android:layout_marginEnd="10dp"
         android:layout_marginBottom="10dp"
@@ -95,7 +92,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/tv1"
-        android:layout_marginStart="9dp"
+        android:layout_marginStart="7dp"
         android:layout_marginTop="10dp"
         android:layout_marginEnd="10dp"
         android:layout_marginBottom="10dp"
